@@ -85,10 +85,10 @@ img {
 }
 .login__form {
   position: relative;
-  background-color: #fff; /* Whitish color (#fff is white) */
+  background-color: #D3D3D3; /* Whitish color (#fff is white) */
   border: 2px solid hsla(244, 16%, 92%, 0.75);  margin-inline: 1.5rem;
   row-gap: 1.25rem;
-  backdrop-filter: blur(80px);
+  backdrop-filter: blur(20px);
   padding: 2rem;
   border-radius: 1rem;
 }
