@@ -68,7 +68,7 @@ img {
 }
 
 /*=============== LOGIN FORM ===============*/
-.login_content, .loginform, .login_inputs {
+.login__content, .login__form, .login__inputs {
   display: grid;
 }
 .login__content {
@@ -85,8 +85,9 @@ img {
 }
 .login__form {
   position: relative;
-  background-color: #fff; /* Whitish color (#fff is white) */
-  border: 2px solid hsla(244, 16%, 92%, 0.75);  margin-inline: 1.5rem;
+  background-color: hsla(244, 20%, 12%, 0.6);
+  border: 2px solid hsla(244, 16%, 92%, 0.75);
+  margin-inline: 1.5rem;
   row-gap: 1.25rem;
   backdrop-filter: blur(20px);
   padding: 2rem;
@@ -128,13 +129,13 @@ img {
 .login__input::placeholder {
   color: var(--text-color);
 }
-.login_input:focus, .login_input:valid {
+.login__input:focus, .login__input:valid {
   border: 2px solid var(--first-color);
 }
 .login__box {
   position: relative;
 }
-.login_box .login_input {
+.login__box .login__input {
   padding-right: 36px;
 }
 .login__eye {
@@ -202,7 +203,7 @@ img {
   color: var(--first-color);
   text-decoration: none;
 }
-/footer/
+/*footer*/
 .text-center{text-align:center!important}
 
 
@@ -289,7 +290,7 @@ color: #533f03
     border-radius: 1.25rem;
     border: 2.5px solid hsla(244, 16%, 92%, 0.75);
   }
-  .login_description, .loginlabel, .login_button {
+  .login__description, .login__label, .login__button {
     font-size: var(--normal-font-size);
   }
   .login__inputs {
@@ -301,7 +302,7 @@ color: #533f03
     padding: 1rem;
     font-size: var(--small-font-size);
   }
-  .login_input:focus, .login_input:valid {
+  .login__input:focus, .login__input:valid {
     border: 2.5px solid var(--first-color);
   }
   .login__button {
