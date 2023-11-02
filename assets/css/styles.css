@@ -312,4 +312,6 @@ color: #533f03
   .login__button-ghost {
     border: 2.5px solid var(--first-color);
   }
+}em;
+  border-radius: 1rem;
 }
