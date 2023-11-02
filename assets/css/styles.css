@@ -1,7 +1,4 @@
-rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;@charset "UTF-8";
+@charset "UTF-8";
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /*=============== VARIABLES CSS ===============*/
@@ -27,7 +24,10 @@ rem;
 }
 @media screen and (min-width: 1024px) {
   :root {
-    --h2-font-size: 1.75
+    --h2-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
   }
 }
 .logo {
@@ -84,7 +84,7 @@ img {
   object-position: center;
 }
 .login__form {
-  position: center;
+  position: relative;
   background-color: hsla(244, 20%, 12%, 0.6);
   border: 2px solid hsla(244, 16%, 92%, 0.75);
   margin-inline: 1.5rem;
@@ -312,6 +312,4 @@ color: #533f03
   .login__button-ghost {
     border: 2.5px solid var(--first-color);
   }
-}em;
-  border-radius: 1rem;
 }
