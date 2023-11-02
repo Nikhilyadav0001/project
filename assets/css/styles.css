@@ -85,7 +85,7 @@ img {
 }
 .login__form {
   position: center;
-  background-color: hsla(244, 20%, 12%, 0.6);
+  background-color: hsla(244, 20%, 100%, 0.6); /* Change background color to transparent white */
   border: 2px solid hsla(244, 16%, 92%, 0.75);
   margin-inline: 1.5rem;
   row-gap: 1.25rem;
